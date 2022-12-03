@@ -190,6 +190,23 @@ footer {
   padding: 52px 138px;
 }
 
+@media screen and (max-width: 1023px) {
+  .roadMap__row {
+    padding: 30px 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .roadMap__row {
+    padding: 10px 10px;
+  }
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url(../font/Cormorant-VariableFont_wght.ttf);
+}
+
 .text_type_pink {
   color: #f4b0c2;
 }
