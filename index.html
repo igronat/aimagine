@@ -22,18 +22,18 @@
           </div>
           <div class="col-8">
             <nav class="nav justify-content-end">
-              <a class="nav-link nav-link__font" href="#">About</a>
-              <a class="nav-link nav-link__font" href="#">Collector Pass</a>
-              <a class="nav-link nav-link__font" href="#">Roadmap</a>
+              <a class="nav-link nav-link__font" href="#about">About</a>
+              <a class="nav-link nav-link__font" href="#collectorPass">Collector Pass</a>
+              <a class="nav-link nav-link__font" href="#roadMap">Roadmap</a>
               <a class="nav-link nav-link__font" href="#">Artist application</a>
-              <a class="nav-link nav-link__font" href="#">Contact</a>
+              <a class="nav-link nav-link__font" href="#contact">Contact</a>
             </nav>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="about">
+    <section id="about" class="about">
       <div class="conteiner">
         <div class="row align-items-center">
           <div class="col-md-6 col-sm-12 text-white">
@@ -45,17 +45,26 @@
               >Join our community</a>
           </div>
           <div class="col-md-6 col-sm-12 text-center ">
+            <div>
             <img
               src="./img/Logo img big.svg"
               alt="логотип"
               class="img-fluid"
             />
+            </div>
+            <div>
+            <img
+              src="./img/Logo.svg"
+              alt="логотип"
+              class="img-fluid about__logo"
+            />
+          </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="collectorPass">
+    <section id="collectorPass" class="collectorPass">
       <div class="conteiner">
         <div class="row align-items-center">
           <div class="col-md-6 col-sm-12">
@@ -85,57 +94,54 @@
     </section>
 
 
-    <section class="roadMap">
+    <section id="roadMap" class="roadMap">
       <div class="conteiner">
-        <div class="row">
-          <div class="col-12 text-white">
-            <h2 class="about__header mb-5 text-white">Aimagine Roadmap</h2>
-              
+        <div class="row text-white">
+          <div class="col-12 ">
+            <h2 class="about__header mb-5">Aimagine Roadmap</h2>    
+          </div>
         </div>
-        </div>
-        <div class="row mb-5 g-2">
-          <div class="col-xl-4 col-md-6 col-sm-12 text-white p-4 roadMap__box">
+        <div class="row mb-5 text-white g-5">
+          <div class="col-xl-4 col-md-6 col-sm-12 p-4 roadMap__box">
             <div class="circle mb-3">
               <img class="" src="./img/Ellipse (Stroke).svg"></img>
             </div>
             <h4 class="collectorPass__description mb-3">Phase 1</h4>
             <p class="roadMap__description mb-2">Collector Pass NFT Launch</p>
             <p class="roadMap__description mb-2">Artists and Partnerships Pipeline</p>
-             <p class="roadMap__description mb-2">Marketplace and launchpad testing</p>
-        </div>
-        <div class="col-xl-4 col-md-6 col-sm-12 text-white p-4 roadMap__box">
-          <div class="circle mb-3">
-            <img class="" src="./img/Ellipse 2.svg"></img>
+            <p class="roadMap__description mb-2">Marketplace and launchpad testing</p>
           </div>
-          <h4 class="collectorPass__description mb-3">Phase 2</h4>
-          <p class="roadMap__description mb-2">Platform launch</p>
-          <p class="roadMap__description mb-2">Governance set up</p>
-           <p class="roadMap__description mb-2">First curated drops</p>
-      </div>
-      <div class="col-xl-4 col-md-6 col-sm-12 text-white p-4 roadMap__box">
-        <div class="circle mb-3">
-          <img class="" src="./img/Ellipse 3.svg"></img>
-        </div>
-        <h4 class="collectorPass__description mb-3">Phase 3</h4>
-        <p class="roadMap__description mb-2">Zero-code platform launch</p>
-         </div>
+          <div class="col-xl-4 col-md-6 col-sm-12 p-4 roadMap__box">
+            <div class="circle mb-3">
+              <img class="" src="./img/Ellipse 2.svg"></img>
+            </div>
+            <h4 class="collectorPass__description mb-3">Phase 2</h4>
+            <p class="roadMap__description mb-2">Platform launch</p>
+            <p class="roadMap__description mb-2">Governance set up</p>
+            <p class="roadMap__description mb-2">First curated drops</p>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12 p-4 roadMap__box">
+            <div class="circle mb-3">
+              <img class="" src="./img/Ellipse 3.svg"></img>
+            </div>
+            <h4 class="collectorPass__description mb-3">Phase 3</h4>
+            <p class="roadMap__description mb-2">Zero-code platform launch</p>
+           </div>
         </div>
 
-         <div class="row roadMap__row ">
+        <div class="row roadMap__row ">
           <div class="col-12 text-center">
             <h3 class="about__header mb-3 text-white collectorPass__description">Are you an Artist experimenting with Artificial Intelligence and looking to turn your work into NFT?</h3>
             <h3 class="about__header mb-3 collectorPass__description text_type_pink">We welcome creators of any type of art (visual, music, text, etc.).</h3> 
             <a href="#" class="btn btn-lg btn__pink"
             >Apply for Curated NFT Launch</a>
           </div>
+        </div>
       </div>
-      </div>
-      
-     
     </section>
 
 
-    <section class="contact collectorPass">
+    <section id="contact" class="contact collectorPass">
       <div class="conteiner">
         <div class="row align-items-center">
           <div class="col-xl-8 col-md-12">
@@ -150,16 +156,12 @@
             ></a>
           </div>
           </div>
-
           <div class="col-xl-4 col-md-12 text-center mt-5 mt-md-0 contact__form">
             <form class="p-3">
               <div class="mb-3 form__placeholder">
-                
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
-                
               </div>
               <div class="mb-3">
-                
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
               </div>
               <div class="mb-3 form-check text-start">
@@ -169,16 +171,10 @@
               <button type="submit" class="btn btn-primary btn__pink btn__form mb-3">Sigh up</button>
               <p class="about__description text-white">By clicking Sigh up, you agree to the terms of use.</p>
             </form>
-           
           </div>
         </div>
       </div>
     </section>
-
-
-
-
-
    
     <footer id="footer">
       <div class="conteiner">
@@ -190,19 +186,16 @@
           </div>
           <div class="col-8">
             <nav class="nav justify-content-end">
-              <a class="nav-link nav-link__font" href="#">About</a>
-              <a class="nav-link nav-link__font" href="#">Collector Pass</a>
-              <a class="nav-link nav-link__font" href="#">Roadmap</a>
+              <a class="nav-link nav-link__font" href="#about">About</a>
+              <a class="nav-link nav-link__font" href="#collectorPass">Collector Pass</a>
+              <a class="nav-link nav-link__font" href="#roadMap">Roadmap</a>
               <a class="nav-link nav-link__font" href="#">Artist application</a>
-              <a class="nav-link nav-link__font" href="#">Contact</a>
+              <a class="nav-link nav-link__font" href="#contact">Contact</a>
             </nav>
           </div>
         </div>
       </div>
     </footer>
-
-   
-              
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

@@ -1,18 +1,24 @@
 @font-face {
-  font-family: 'Comfortaa';
+  font-family: "Octarine";
+  src: url(../font/octarine-cufonfonts/Octarine-Light.otf);
+}
+
+@font-face {
+  font-family: "Comfortaa";
   src: url(../font/Comfortaa-VariableFont_wght.ttf);
 }
 
 @font-face {
-  font-family: 'Cormorant';
+  font-family: "Cormorant";
   src: url(../font/Cormorant-VariableFont_wght.ttf);
 }
 
 body {
-  font-family: 'Comfortaa';
+  font-family: "Octarine", "Comfortaa";
 }
 
-header, footer {
+header,
+footer {
   padding: 16px 24px;
 }
 
@@ -39,17 +45,17 @@ footer {
 }
 
 .nav-link__font {
-  font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-letter-spacing: -0.32px;
-color: #FFFFFF;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.32px;
+  color: #ffffff;
 }
 
 .nav-link:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   transition: 1s;
   opacity: 0.6;
 }
@@ -58,10 +64,9 @@ color: #FFFFFF;
   padding-right: 0;
 }
 
-
 /*about*/
 .about {
-  background: url(../img/About.svg), #0A021B;
+  background: url(../img/About.svg), #0a021b;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -73,47 +78,58 @@ color: #FFFFFF;
 }
 
 .about__header {
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-letter-spacing: 0.38px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.38px;
 }
 .about__description {
   opacity: 0.6;
-  font-family: 'Cormorant';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: -0.32px;
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.32px;
 }
 
 .btn__white {
   border-radius: 15px;
   font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 14px;
-align-items: center;
-letter-spacing: -0.078px;
-color: #0A021B;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  align-items: center;
+  letter-spacing: -0.078px;
+  color: #0a021b;
+}
+
+.btn__white:hover {
+  opacity: 0.6;
+  transition: 2s;
 }
 
 .btn__pink {
-  background: #F4B0C2;
-border-radius: 4px;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-letter-spacing: -0.32px;
-color: #0A021B;
+  background: #f4b0c2;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.32px;
+  color: #0a021b;
 }
 
 .btn__pink:hover {
-opacity: 0.6;
-transition: 2s;
+  background: #f4b0c2;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+.about__logo {
+  width: 358px;
+  height: 78px;
 }
 
 /* collectorPass */
@@ -125,9 +141,9 @@ transition: 2s;
 
 .collectorPass__description {
   font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-letter-spacing: 0.38px;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.38px;
 }
 
 .collectorPass__list {
@@ -135,8 +151,13 @@ letter-spacing: 0.38px;
 }
 
 .btn__violet {
-background-color: #0A021B;
-color: white;
+  background-color: #0a021b;
+  color: white;
+}
+
+.btn__violet:hover {
+  opacity: 0.6;
+  transition: 2s;
 }
 
 /* roadMap */
@@ -148,51 +169,48 @@ color: white;
 
 .roadMap__description {
   font-weight: 400;
-font-size: 16px;
-line-height: 18px;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .roadMap__box {
-  box-shadow: 0px 0px 10px 5px rgba(244,176,194,0.31);
-  -webkit-box-shadow: 0px 0px 10px 5px rgba(244,176,194,0.31);
-  -moz-box-shadow: 0px 0px 10px 5px rgba(244,176,194,0.31);
-border-radius: 11px;
-background-color: #0A021B;
-width: 341.33px;
-height: 258px;
+  box-shadow: 0px 0px 10px 5px rgba(244, 176, 194, 0.31);
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(244, 176, 194, 0.31);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(244, 176, 194, 0.31);
+  border-radius: 11px;
+  background-color: #0a021b;
 
 }
 
 .roadMap__row {
-  background-color: #0A021B;
+  background-color: #0a021b;
   border-radius: 8px;
   opacity: 0.8;
   padding: 52px 138px;
 }
 
 .text_type_pink {
-  color: #F4B0C2
+  color: #f4b0c2;
 }
 
 /* contact */
 .contact__header {
   font-weight: 700;
-font-size: 40px;
-line-height: 45px;
-color: #212529;
+  font-size: 40px;
+  line-height: 45px;
+  color: #212529;
 }
 
 .contact__form {
-  background-color: #0A021B;
+  background-color: #0a021b;
 }
 
 .form__placeholder {
   font-weight: 400;
-font-size: 19px;
-line-height: 21px;
-letter-spacing: -0.32px;
-color: #212529;
-
+  font-size: 19px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  color: #212529;
 }
 
 .btn__form {
@@ -203,12 +221,3 @@ color: #212529;
   padding-top: 56px;
   padding-bottom: 56px;
 }
-
-
-
-
-
-
-
-
-
