@@ -1,157 +1,214 @@
-:root {
-  --color1: #f75394;
-  --color2: #120a8f;
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(../font/Comfortaa-VariableFont_wght.ttf);
 }
 
-.row {
-  margin: 0;
+@font-face {
+  font-family: 'Cormorant';
+  src: url(../font/Cormorant-VariableFont_wght.ttf);
 }
 
-footer {
-  padding: 30px 0;
+body {
+  font-family: 'Comfortaa';
 }
+
+header, footer {
+  padding: 16px 24px;
+}
+
 section {
-  padding: 100px 0;
+  padding: 117px 188px;
 }
 
-header {
-  padding: 200px 0;
+@media screen and (max-width: 1023px) {
+  section {
+    padding: 80px 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section {
+    padding: 30px 30px;
+  }
 }
 
 header,
 footer {
-  background: url(../img/pattern.png), var(--color1);
-  background: url(../img/pattern.png),
-    -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
-  background: url(../img/pattern.png),
-    -webkit-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
-  background: url(../img/pattern.png),
-    linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1);
+  background-color: #000000;
   background-size: contain;
 }
 
-.itd_play {
-  background-color: var(--color1);
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  margin: 30px auto;
-  transition: all 0.2s ease;
-}
-.itd_play:hover {
-  background-color: var(--color2);
-}
-.itd_triangle {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 0 10px 20px;
-  border-color: transparent transparent transparent var(--bs-white);
-  margin-right: -5px;
-}
-.btn_itd {
-  display: block;
-  max-width: 200px;
-  margin: 0 auto;
-  padding: 8px 30px;
-  color: var(--bs-white);
-  background-color: var(--color2);
-}
-.btn_itd:hover {
-  color: var(--bs-white);
-  background-color: var(--color1);
-}
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-/* цвет */
-.color1 {
-  color: var(--color1);
-}
-.color2 {
-  color: var(--color2);
-}
-.bg1 {
-  background-color: var(--color1);
-}
-.bg2 {
-  background-color: var(--color2);
+.nav-link__font {
+  font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.32px;
+color: #FFFFFF;
 }
 
-/* О курсе */
+.nav-link:hover {
+  color: #FFFFFF;
+  transition: 1s;
+  opacity: 0.6;
+}
+
+.nav-link {
+  padding-right: 0;
+}
+
+
+/*about*/
 .about {
-  background-color: #eee;
-}
-.about i {
-  font-size: 35px;
-  color: var(--color2);
-}
-.itd_circle {
-  margin: 0 auto 15px;
-  width: 70px;
-  height: 70px;
-  border: 3px solid var(--color2);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.line {
-  width: 100px;
-  height: 3px;
-  background-color: var(--color1);
-  margin: 15px auto 30px;
+  background: url(../img/About.svg), #0A021B;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-/* для тех, кто */
-.itd_border {
-  border: 3px solid var(--color1);
-  padding: 50px;
+@media screen and (max-width: 767px) {
+  .about {
+    background-size: cover;
+  }
 }
 
-/* Программа */
-.programma {
-  background-color: #eee;
+.about__header {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.38px;
 }
-.accordion-button:not(.collapsed) {
-  color: var(--bs-black);
-  background-color: var(--color1);
-}
-.accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
-
-/* Об авторе */
-.autor {
-  padding-bottom: 0;
-}
-.itd_img {
-  max-width: 260px;
+.about__description {
+  opacity: 0.6;
+  font-family: 'Cormorant';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.32px;
 }
 
-/* Отзывы */
-.feedback {
-  background-color: #eee;
+.btn__white {
+  border-radius: 15px;
+  font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 14px;
+align-items: center;
+letter-spacing: -0.078px;
+color: #0A021B;
 }
-.round {
-  border: 2px solid var(--color1);
-  border-radius: 50%;
+
+.btn__pink {
+  background: #F4B0C2;
+border-radius: 4px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.32px;
+color: #0A021B;
 }
+
+.btn__pink:hover {
+opacity: 0.6;
+transition: 2s;
+}
+
+/* collectorPass */
+.collectorPass {
+  background: url(../img/CollectorPass.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.collectorPass__description {
+  font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.38px;
+}
+
+.collectorPass__list {
+  list-style-type: "– ";
+}
+
+.btn__violet {
+background-color: #0A021B;
+color: white;
+}
+
+/* roadMap */
+.roadMap {
+  background: url(../img/RoadMap.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.roadMap__description {
+  font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+}
+
+.roadMap__box {
+  box-shadow: 0px 0px 10px 5px rgba(244,176,194,0.31);
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(244,176,194,0.31);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(244,176,194,0.31);
+border-radius: 11px;
+background-color: #0A021B;
+width: 341.33px;
+height: 258px;
+
+}
+
+.roadMap__row {
+  background-color: #0A021B;
+  border-radius: 8px;
+  opacity: 0.8;
+  padding: 52px 138px;
+}
+
+.text_type_pink {
+  color: #F4B0C2
+}
+
+/* contact */
+.contact__header {
+  font-weight: 700;
+font-size: 40px;
+line-height: 45px;
+color: #212529;
+}
+
+.contact__form {
+  background-color: #0A021B;
+}
+
+.form__placeholder {
+  font-weight: 400;
+font-size: 19px;
+line-height: 21px;
+letter-spacing: -0.32px;
+color: #212529;
+
+}
+
+.btn__form {
+  width: 100%;
+}
+
+.contact {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+
+
+
+
+
+
+
+
