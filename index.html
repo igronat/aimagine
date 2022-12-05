@@ -4,29 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/Logo img.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/LogoImg.svg" type="image/x-icon" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Aimagine</title>
   </head>
 
   <body>
-
-    <header>
-      <div class="conteiner">
+    <header class="fixed-top">
+      <div class="conteiner ">
         <div class="row align-items-center justify-content-between">
           <div class="col-2">
-            <img src="./img/Logo.svg"
-            alt="логотип"
-            class="">
+            <img src="./img/Logo.svg" alt="логотип" class="" />
           </div>
           <div class="col-8">
-            <nav class="nav justify-content-end">
-              <a class="nav-link nav-link__font" href="#about">About</a>
-              <a class="nav-link nav-link__font" href="#collectorPass">Collector Pass</a>
-              <a class="nav-link nav-link__font" href="#roadMap">Roadmap</a>
-              <a class="nav-link nav-link__font" href="#">Artist application</a>
-              <a class="nav-link nav-link__font" href="#contact">Contact</a>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid justify-content-end">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link nav-link__font text-white" href="#about"
+                      >About</a
+                    >
+                    <a
+                      class="nav-link nav-link__font text-white"
+                      href="#collectorPass"
+                      >Collector Pass</a
+                    >
+                    <a
+                      class="nav-link nav-link__font text-white"
+                      href="#roadMap"
+                      >Roadmap</a
+                    >
+                    <a class="nav-link nav-link__font text-white" href="#"
+                      >Artist application</a
+                    >
+                    <a
+                      class="nav-link nav-link__font text-white"
+                      href="#contact"
+                      >Contact</a
+                    >
+                  </div>
+                </div>
+              </div>
             </nav>
           </div>
         </div>
@@ -37,28 +67,30 @@
       <div class="conteiner">
         <div class="row align-items-center">
           <div class="col-md-6 col-sm-12 text-white">
-            <h1 class="about__header mb-2">Ultimate Web3 platform for everything AI</h1>
-              <a href="#" class="btn btn-sm btn-light btn__white mb-4"
-              >Coming soon</a>
-            <p class="about__description mb-4">We provide artists with all the necessary tools to make their Web3 journey seamless and enjoyable. Create, trade, and collect all forms of AI-generated art.</p>
-            <a href="#" class="btn btn-lg btn__pink"
-              >Join our community</a>
+            <h1 class="about__header mb-2">
+              Ultimate Web3 platform for everything AI
+            </h1>
+            <a href="#" class="btn btn-sm btn-light btn__white mb-4"
+              >Coming soon</a
+            >
+            <p class="about__description mb-4">
+              We provide artists with all the necessary tools to make their Web3
+              journey seamless and enjoyable. Create, trade, and collect all
+              forms of AI-generated art.
+            </p>
+            <a href="#" class="btn btn-lg btn__pink">Join our community</a>
           </div>
-          <div class="col-md-6 col-sm-12 text-center ">
+          <div class="col-md-6 col-sm-12 text-center">
             <div>
-            <img
-              src="./img/Logo img big.svg"
-              alt="логотип"
-              class="img-fluid"
-            />
+              <img src="./img/LogoImgBig.svg" alt="логотип" class="img-fluid" />
             </div>
             <div>
-            <img
-              src="./img/Logo.svg"
-              alt="логотип"
-              class="img-fluid about__logo"
-            />
-          </div>
+              <img
+                src="./img/Logo.svg"
+                alt="логотип"
+                class="img-fluid about__logo"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -69,125 +101,179 @@
         <div class="row align-items-center">
           <div class="col-md-6 col-sm-12">
             <h2 class="about__header mb-4">Aimagine Collector Pass</h2>
-            <h4 class="collectorPass__description mb-4">Unique NFT membership with unprecedented rewards for community-driven growth.</h4>
-            <p class="about__description mb-1">ACP is a utility NFT that powers our community and entitles you to:</p>
+            <h4 class="collectorPass__description mb-4">
+              Unique NFT membership with unprecedented rewards for
+              community-driven growth.
+            </h4>
+            <p class="about__description mb-1">
+              ACP is a utility NFT that powers our community and entitles you
+              to:
+            </p>
             <ul class="list-group about__description collectorPass__list mb-4">
-              <li class="">Participate in platform governance, create proposals and vote on changes</li>
-              <li class="">Participate in the curation board and have the power to decide on featured launches</li>
-              <li class="">Earn a share of marketplace fees and curated projects royalties</li>
+              <li class="">
+                Participate in platform governance, create proposals and vote on
+                changes
+              </li>
+              <li class="">
+                Participate in the curation board and have the power to decide
+                on featured launches
+              </li>
+              <li class="">
+                Earn a share of marketplace fees and curated projects royalties
+              </li>
               <li class="">Access to private sales and auctions</li>
               <li class="">No trading fees on the marketplace</li>
             </ul>
-            <a href="#" class="btn btn-lg btn__violet"
-              >Apply for allowlist</a>
+            <a href="#" class="btn btn-lg btn__violet">Apply for allowlist</a>
           </div>
           <div class="col-md-6 col-sm-12 text-center mt-5 mt-md-0">
             <img
-              src="./img/CollectorPass Video.svg"
+              src="./img/CollectorPassVideo.svg"
               alt="видео"
               class="img-fluid"
             />
-           
           </div>
         </div>
       </div>
     </section>
 
-
     <section id="roadMap" class="roadMap">
       <div class="conteiner">
         <div class="row text-white">
-          <div class="col-12 ">
-            <h2 class="about__header mb-5">Aimagine Roadmap</h2>    
+          <div class="col-12">
+            <h2 class="about__header mb-5">Aimagine Roadmap</h2>
           </div>
         </div>
         <div class="row mb-5 text-white gap-5 justify-content-between">
-          <div class="col-xl-4 col-md-6 col-sm-12 p-4 roadMap__box">
+          <div class="col-xl-3 col-md-6 col-sm-12 roadMap__box p-4">
             <div class="circle mb-3">
-              <img class="" src="./img/Ellipse (Stroke).svg"></img>
+              <img class="" alt="знак" src="./img/Ellipse(Stroke).svg" />
             </div>
             <h4 class="collectorPass__description mb-3">Phase 1</h4>
             <p class="roadMap__description mb-2">Collector Pass NFT Launch</p>
-            <p class="roadMap__description mb-2">Artists and Partnerships Pipeline</p>
-            <p class="roadMap__description mb-2">Marketplace and launchpad testing</p>
+            <p class="roadMap__description mb-2">
+              Artists and Partnerships Pipeline
+            </p>
+            <p class="roadMap__description mb-2">
+              Marketplace and launchpad testing
+            </p>
           </div>
-          <div class="col-xl-4 col-md-6 col-sm-12 p-4 roadMap__box">
+          <div class="col-xl-3 col-md-6 col-sm-12 roadMap__box p-4">
             <div class="circle mb-3">
-              <img class="" src="./img/Ellipse 2.svg"></img>
+              <img class="" alt="знак" src="./img/Ellipse2.svg" />
             </div>
             <h4 class="collectorPass__description mb-3">Phase 2</h4>
             <p class="roadMap__description mb-2">Platform launch</p>
             <p class="roadMap__description mb-2">Governance set up</p>
             <p class="roadMap__description mb-2">First curated drops</p>
           </div>
-          <div class="col-xl-4 col-md-6 col-sm-12 p-4 roadMap__box">
+          <div class="col-xl-3 col-md-6 col-sm-12 roadMap__box p-4">
             <div class="circle mb-3">
-              <img class="" src="./img/Ellipse 3.svg"></img>
+              <img class="" alt="знак" src="./img/Ellipse3.svg" />
             </div>
             <h4 class="collectorPass__description mb-3">Phase 3</h4>
             <p class="roadMap__description mb-2">Zero-code platform launch</p>
-           </div>
+          </div>
         </div>
 
-        <div class="row roadMap__row ">
+        <div class="row roadMap__row">
           <div class="col-12 text-center">
-            <h3 class="about__header mb-3 text-white collectorPass__description">Are you an Artist experimenting with Artificial Intelligence and looking to turn your work into NFT?</h3>
-            <h3 class="about__header mb-3 collectorPass__description text_type_pink">We welcome creators of any type of art (visual, music, text, etc.).</h3> 
+            <h3
+              class="about__header mb-3 text-white collectorPass__description"
+            >
+              Are you an Artist experimenting with Artificial Intelligence and
+              looking to turn your work into NFT?
+            </h3>
+            <h3
+              class="about__header mb-3 collectorPass__description text_type_pink"
+            >
+              We welcome creators of any type of art (visual, music, text,
+              etc.).
+            </h3>
             <a href="#" class="btn btn-lg btn__pink"
-            >Apply for Curated NFT Launch</a>
+              >Apply for Curated NFT Launch</a
+            >
           </div>
         </div>
       </div>
     </section>
-
 
     <section id="contact" class="contact collectorPass">
       <div class="conteiner">
         <div class="row align-items-center">
           <div class="col-xl-8 col-md-12">
             <h2 class="contact__header mb-4">Contact Us</h2>
-            <p class="about__description mb-3">We provide artists with all the necessary tools to make their Web3 journey seamless and enjoyable. Create, trade, and collect all forms of AI-generated art.</p>
+            <p class="about__description mb-3">
+              We provide artists with all the necessary tools to make their Web3
+              journey seamless and enjoyable. Create, trade, and collect all
+              forms of AI-generated art.
+            </p>
             <div>
               <a href="" target="blank" class="btn"
-              ><img class="img-fluid" alt="Discord" src="./img/Discord.svg"></i
-            ></a>
-            <a href="" target="blank" class="btn"
-              ><img class="img-fluid" alt="Twitter" src="./img/Twitter.svg"></i
-            ></a>
+                ><img class="img-fluid" alt="Discord" src="./img/Discord.svg" />
+              </a>
+              <a href="" target="blank" class="btn"
+                ><img class="img-fluid" alt="Twitter" src="./img/Twitter.svg" />
+              </a>
+            </div>
           </div>
-          </div>
-          <div class="col-xl-4 col-md-12 text-center mt-5 mt-md-0 contact__form">
+          <div
+            class="col-xl-4 col-md-12 text-center mt-5 mt-md-0 contact__form"
+          >
             <form class="p-3">
               <div class="mb-3 form__placeholder">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                <input
+                  type="email"
+                  class="form-control input__color"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Email address"
+                />
               </div>
               <div class="mb-3">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input
+                  type="password"
+                  class="form-control input__color"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
               </div>
               <div class="mb-3 form-check text-start">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label about__description text-white" for="exampleCheck1">Remember me</label>
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label
+                  class="form-check-label about__description text-white"
+                  for="exampleCheck1"
+                  >Remember me</label
+                >
               </div>
-              <button type="submit" class="btn btn__pink btn__form mb-3">Sigh up</button>
-              <p class="about__description text-white">By clicking Sigh up, you agree to the terms of use.</p>
+              <button type="submit" class="btn btn__pink btn__form mb-3">
+                Sigh up
+              </button>
+              <p class="about__description text-white">
+                By clicking Sigh up, you agree to the terms of use.
+              </p>
             </form>
           </div>
         </div>
       </div>
     </section>
-   
+
     <footer id="footer">
       <div class="conteiner">
         <div class="row align-items-center justify-content-between">
           <div class="col-2">
-            <img src="./img/Logo img.svg"
-            alt="логотип"
-            class="">
+            <img src="./img/LogoImg.svg" alt="логотип" class="" />
           </div>
           <div class="col-8">
             <nav class="nav justify-content-end">
               <a class="nav-link nav-link__font" href="#about">About</a>
-              <a class="nav-link nav-link__font" href="#collectorPass">Collector Pass</a>
+              <a class="nav-link nav-link__font" href="#collectorPass"
+                >Collector Pass</a
+              >
               <a class="nav-link nav-link__font" href="#roadMap">Roadmap</a>
               <a class="nav-link nav-link__font" href="#">Artist application</a>
               <a class="nav-link nav-link__font" href="#contact">Contact</a>
