@@ -238,3 +238,7 @@ footer {
   padding-top: 56px;
   padding-bottom: 56px;
 }
+
+.input__color {
+  background-color: #FFDEE4;
+}
