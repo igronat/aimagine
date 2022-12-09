@@ -12,19 +12,19 @@
 
   <body>
     <header class="fixed-top">
-        <div class="conteiner">
-          <div class="row">
-            <div class="col-12">
-                <a class="btn__header" href="index.html">&larr; Back to previous</a>
-            </div>
-        </div>
-        </div>
-      </header>
-
-    <section id="ArtistApplication" class="about artistApplication">
       <div class="conteiner">
-        <div class="row align-items-center">
-          <div class="col-12 text-center mb-3">
+        <div class="row">
+          <div class="col-12">
+            <a class="btn__header" href="index.html">&larr; Back to previous</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="ArtistApplication" class="about application">
+      <div class="conteiner container-md">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
             <div>
               <img
                 src="./img/LogoImgBig.svg"
@@ -41,7 +41,7 @@
             </div>
           </div>
           <div class="col-12 text-white">
-            <form method="post" class="p-5 artistApplication__form">
+            <form method="post" class="artistApplication__form m-auto">
               <h3
                 class="about__header mb-2 collectorPass__description text_type_pink"
               >
@@ -202,8 +202,16 @@
                 />
               </div>
               <div class="form-check form-switch mb-4">
-                <input class="form-check-input checkbox__color" type="checkbox" id="flexSwitchCheckDefault">
-                <label class="form-check-label about__description text-white" for="flexSwitchCheckDefault">Do you have a community?</label>
+                <input
+                  class="form-check-input checkbox__color"
+                  type="checkbox"
+                  id="flexSwitchCheckDefault"
+                />
+                <label
+                  class="form-check-label about__description text-white"
+                  for="flexSwitchCheckDefault"
+                  >Do you have a community?</label
+                >
               </div>
               <div class="mb-4 form__placeholder">
                 <label
@@ -256,7 +264,9 @@
                   from third parties.</label
                 >
               </div>
-              <button type="submit" href="#" class="btn btn-lg btn__pink">Join our community</button>
+              <button type="submit" href="#" class="btn btn-lg btn__pink">
+                Join our community
+              </button>
             </form>
           </div>
         </div>
@@ -264,24 +274,32 @@
     </section>
 
     <footer id="footer">
-        <div class="conteiner">
-          <div class="row align-items-center justify-content-between">
-            <div class="col-2">
-              <img src="./img/LogoImg.svg" alt="логотип" class="" />
-            </div>
-            <div class="col-8">
-              <nav class="nav justify-content-end">
-                <a class="nav-link nav-link__font" href="index.html#about">About</a>
-                <a class="nav-link nav-link__font" href="index.html#collectorPass"
-                  >Collector Pass</a
-                >
-                <a class="nav-link nav-link__font" href="index.html#roadMap">Roadmap</a>
-                <a class="nav-link nav-link__font" href="#ArtistApplication">Artist application</a>
-                <a class="nav-link nav-link__font" href="index.html#contact">Contact</a>
-              </nav>
-            </div>
+      <div class="conteiner">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-2">
+            <img src="./img/LogoImg.svg" alt="логотип" class="" />
+          </div>
+          <div class="col-8">
+            <nav class="nav justify-content-end">
+              <a class="nav-link nav-link__font" href="index.html#about"
+                >About</a
+              >
+              <a class="nav-link nav-link__font" href="index.html#collectorPass"
+                >Collector Pass</a
+              >
+              <a class="nav-link nav-link__font" href="index.html#roadMap"
+                >Roadmap</a
+              >
+              <a class="nav-link nav-link__font" href="#ArtistApplication"
+                >Artist application</a
+              >
+              <a class="nav-link nav-link__font" href="index.html#contact"
+                >Contact</a
+              >
+            </nav>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>
