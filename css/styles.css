@@ -274,6 +274,15 @@ background-color: #f4b0c2;
   background: rgba(244,176,194, 0.2);
 }
 
+@media screen and (max-width: 767px) {
+  .artistApplication {
+    padding: 0;
+  }
+  .WhitelistApplication {
+    padding: 0;
+  }
+}
+
 .form__header {
   font-weight: 300;
 font-size: 16px;
