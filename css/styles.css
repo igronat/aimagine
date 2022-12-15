@@ -87,7 +87,7 @@ footer {
   letter-spacing: 0.38px;
 }
 .about__description {
-  opacity: 0.6;
+  opacity: 0.9;
   font-family: "Cormorant";
   font-style: normal;
   font-weight: 500;
@@ -129,10 +129,7 @@ footer {
   transition: 2s;
 }
 
-.about__logo {
-  width: 358px;
-  height: 78px;
-}
+
 
 /* collectorPass */
 .collectorPass {
@@ -162,6 +159,12 @@ footer {
   transition: 2s;
 }
 
+@media screen and (max-width: 767px) {
+.circle__type_hidden {
+  display: none;
+}
+}
+
 /* roadMap */
 .roadMap {
   background: url(../img/Rectangle.svg), #0a021b;
@@ -186,7 +189,7 @@ footer {
 .roadMap__row {
   background-color: #0a021b;
   border-radius: 8px;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 52px 138px;
 }
 
@@ -315,3 +318,4 @@ footer {
 .input-group__size {
   width: 155px;
 }
+

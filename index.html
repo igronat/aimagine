@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/LogoImg.svg" type="image/x-icon" />
+    <link
+      href="/assets/134e0650/bootstrap-icons.css?v=1668361474"
+      rel="stylesheet"
+    />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Aimagine</title>
@@ -83,18 +87,16 @@
               journey seamless and enjoyable. Create, trade, and collect all
               forms of AI-generated art.
             </p>
-            <a href="https://discord.com/invite/aimagine" target="blank" class="btn btn-lg btn__pink">Join our community</a>
+            <a
+              href="https://discord.com/invite/aimagine"
+              target="blank"
+              class="btn btn-lg btn__pink"
+              >Join our community</a
+            >
           </div>
           <div class="col-md-6 col-sm-12 text-center">
             <div>
-              <img src="./img/LogoImgBig.svg" alt="логотип" class="img-fluid" />
-            </div>
-            <div>
-              <img
-                src="./img/Logo.svg"
-                alt="логотип"
-                class="img-fluid about__logo"
-              />
+              <img src="./img/FullLogo.svg" alt="логотип" class="img-fluid " />
             </div>
           </div>
         </div>
@@ -129,9 +131,11 @@
               <li class="">Access to private sales and auctions</li>
               <li class="">No trading fees on the marketplace</li>
             </ul>
-            <a href="WhitelistApplication.html" class="btn btn-lg btn__violet">Apply for allowlist</a>
+            <a href="WhitelistApplication.html" class="btn btn-lg btn__violet"
+              >Apply for allowlist</a
+            >
           </div>
-          <div class="col-md-6 col-sm-12 text-center mt-5 mt-md-0">
+          <div class="col-md-6 col-sm-12 text-center mt-5 mt-md-0 circle__type_hidden">
             <img
               src="./img/CollectorPassVideo.svg"
               alt="видео"
@@ -213,11 +217,17 @@
               journey seamless and enjoyable. Create, trade, and collect all
               forms of AI-generated art.
             </p>
-            <div>
-              <a href="https://discord.com/invite/aimagine" target="blank" class="btn"
+            <div class="mb-4">
+              <a
+                href="https://discord.com/invite/aimagine"
+                target="blank"
+                class="btn"
                 ><img class="img-fluid" alt="Discord" src="./img/Discord.svg" />
               </a>
-              <a href="https://twitter.com/aimaginenft" target="blank" class="btn"
+              <a
+                href="https://twitter.com/aimaginenft"
+                target="blank"
+                class="btn"
                 ><img class="img-fluid" alt="Twitter" src="./img/Twitter.svg" />
               </a>
             </div>
@@ -237,14 +247,14 @@
               </div>
               <div class="mb-3">
                 <input
-                  type="password"
+                  type="text"
                   class="form-control input__color"
-                  id="exampleInputPassword1"
-                  placeholder="Password"
+                  id="inputMessage"
+                  placeholder="Your message"
                 />
               </div>
               <div class="mb-3 form-check text-start">
-                <input
+                <!-- <input
                   type="checkbox"
                   class="form-check-input checkbox__color"
                   id="exampleCheck1"
@@ -253,13 +263,13 @@
                   class="form-check-label about__description text-white"
                   for="exampleCheck1"
                   >Remember me</label
-                >
+                > -->
               </div>
               <button type="submit" class="btn btn__pink btn__form mb-3">
-                Sigh up
+                Send
               </button>
               <p class="about__description text-white">
-                By clicking Sigh up, you agree to the terms of use.
+                By clicking Send, you agree to the terms of use.
               </p>
             </form>
           </div>
@@ -289,6 +299,82 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="submit"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content input__color">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Thank you, your application is under review. We will notify all
+              successful candidates and update roles in discord! Stay tuned.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary btn__pink"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="community"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content input__color">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Your application successfully submitted.</p>
+            <p>
+              Please note that the Aimagine curation board and community may
+              take some time to review your application. The process may take up
+              to several months. We will contact successful applicants by email.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary btn__pink"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

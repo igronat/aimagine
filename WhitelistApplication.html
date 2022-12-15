@@ -63,6 +63,62 @@
                 Our team will review each submission, and all successful
                 candidates will receive a special role in the Discord server.
               </p>
+              <h4 class="mb-4 form__header text_white">
+                Contact Information
+              </h4>
+
+              <div class="mb-4 form__placeholder">
+                <label for="inputEmail" class="form-label text_type_pink"
+                  >Primary Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control input__color"
+                  id="inputEmail"
+                  aria-describedby="emailHelp"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="mb-4 form__placeholder">
+                <label for="inputTwitter" class="form-label text_type_pink"
+                  >Please connect your Twitter account</label
+                >
+                <!-- <input
+                  type="text"
+                  class="form-control input__color"
+                  id="inputTwitter"
+                  aria-describedby="Twitter"
+                  placeholder="Your Twitter Handle"
+                /> -->
+                <div>
+                  <a href="https://twitter.com/" class="btn mb-4 btn__pink" target="blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                      Connect
+                    </a>
+            </div>
+              </div>
+              <div class="mb-3 form__placeholder">
+                <label for="inputDiscord" class="form-label text_type_pink"
+                  >Please connect your Discord account</label
+                >
+                <!-- <input
+                  type="text"
+                  class="form-control input__color"
+                  id="inputDiscord"
+                  aria-describedby="Discord"
+                  placeholder="Your Discord ID"
+                /> -->
+                <div>
+                <a href="https://discord.com/login?redirect_to=%2Fchannels%2F%40me" class="btn mb-4 btn__pink" target="blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord me-2" viewBox="0 0 16 16">
+                      <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+                    </svg>
+                    Connect
+                  </a>
+          </div>
+              </div>
               <label
                 for="accessCode"
                 class="form-label about__description text-white mb-3"
@@ -91,204 +147,176 @@
                 not a member of our discord server, you can ask for an
                 invitation from one of the members.</label
               >
-              <h4 class="mb-4 form__header text_white">Contact Information</h4>
+              <div id="whitelist-application-form" class="">
+                
 
-              <div class="mb-4 form__placeholder">
-                <label for="inputEmail" class="form-label text_type_pink"
-                  >Primary Email</label
-                >
-                <input
-                  type="email"
-                  class="form-control input__color"
-                  id="inputEmail"
-                  aria-describedby="emailHelp"
-                  placeholder="Your Email"
-                />
-              </div>
-              <div class="mb-4 form__placeholder">
-                <label for="inputTwitter" class="form-label text_type_pink"
-                  >Please connect your Twitter account</label
-                >
-                <input
-                  type="text"
-                  class="form-control input__color"
-                  id="inputTwitter"
-                  aria-describedby="Twitter"
-                  placeholder="Your Twitter Handle"
-                />
-              </div>
-              <div class="mb-5 form__placeholder">
-                <label for="inputDiscord" class="form-label text_type_pink"
-                  >Please connect your Discord account</label
-                >
-                <input
-                  type="text"
-                  class="form-control input__color"
-                  id="inputDiscord"
-                  aria-describedby="Discord"
-                  placeholder="Your Discord ID"
-                />
-              </div>
-
-              <h4 class="mb-4 form__header text_white">
-                How would you identify yourself?
-              </h4>
-              <div class="mb-4 form__placeholder">
-                <select
-                  class="form-select input__color mb-4"
-                  aria-label="inputIdentify"
-                >
-                  <option selected>Identify yourself</option>
-                  <option value="1">Collector</option>
-                  <option value="2">Creator</option>
-                  <option value="3">Investor</option>
-                  <option value="4">Trader</option>
-                  <option value="5">Web3 Developer</option>
-                  <option value="6">Web3 Business Owner</option>
-                  <option value="7">NFT newbie</option>
-                  <option value="8">Web3 explorer</option>
-                </select>
-              </div>
-              <div class="mb-4 form__placeholder">
+                <h4 class="mb-4 form__header text_white">
+                  How would you identify yourself?
+                </h4>
+                <div class="mb-4 form__placeholder">
+                  <select
+                    class="form-select input__color mb-4"
+                    aria-label="inputIdentify"
+                  >
+                    <option selected>Identify yourself</option>
+                    <option value="1">Collector</option>
+                    <option value="2">Creator</option>
+                    <option value="3">Investor</option>
+                    <option value="4">Trader</option>
+                    <option value="5">Web3 Developer</option>
+                    <option value="6">Web3 Business Owner</option>
+                    <option value="7">NFT newbie</option>
+                    <option value="8">Web3 explorer</option>
+                  </select>
+                </div>
+                <div class="mb-4 form__placeholder">
+                  <label
+                    for="NFTJourney"
+                    class="form-label about__description text-white mb-4"
+                    >Tell us more about your Web 3 journey.<br />Are you a part
+                    of any NFT community/project? Which ones?</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control input__color"
+                    id="inputNFTJourney"
+                    aria-describedby="NFTJourney"
+                    placeholder="Your NFT journey"
+                  />
+                </div>
+                <div class="mb-4 form__placeholder">
+                  <label
+                    for="inputFavoruteNFT"
+                    class="form-label about__description text-white mb-4"
+                    >Have you ever bought AI art NFTs? If yes - what is your
+                    favorite project?
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control input__color"
+                    id="inputFavoruteNFT"
+                    aria-describedby="FavoruteNFT"
+                    placeholder="Your favorute AI art NFT"
+                  />
+                </div>
+                <div class="mb-4 form__placeholder">
+                  <label
+                    for="inputExperience"
+                    class="form-label about__description text-white mb-4"
+                    >Have you ever created artwork using AI algorithms and a
+                    text-to-image diffusion model?<br />Tell us about your
+                    experience.</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control input__color"
+                    id="inputExperience"
+                    aria-describedby="Experience"
+                    placeholder="Your experience"
+                  />
+                </div>
                 <label
-                  for="NFTJourney"
-                  class="form-label about__description text-white mb-4"
-                  >Tell us more about your Web 3 journey.<br />Are you a part of
-                  any NFT community/project? Which ones?</label
-                >
-                <input
-                  type="text"
-                  class="form-control input__color"
-                  id="inputNFTJourney"
-                  aria-describedby="NFTJourney"
-                  placeholder="Your NFT journey"
-                />
-              </div>
-              <div class="mb-4 form__placeholder">
-                <label
-                  for="inputFavoruteNFT"
-                  class="form-label about__description text-white mb-4"
-                  >Have you ever bought AI art NFTs? If yes - what is your
-                  favorite project?
-                </label>
-                <input
-                  type="text"
-                  class="form-control input__color"
-                  id="inputFavoruteNFT"
-                  aria-describedby="FavoruteNFT"
-                  placeholder="Your favorute AI art NFT"
-                />
-              </div>
-              <div class="mb-4 form__placeholder">
-                <label
-                  for="inputExperience"
-                  class="form-label about__description text-white mb-4"
-                  >Have you ever created artwork using AI algorithms and a
-                  text-to-image diffusion model?<br />Tell us about your
-                  experience.</label
-                >
-                <input
-                  type="text"
-                  class="form-control input__color"
-                  id="inputExperience"
-                  aria-describedby="Experience"
-                  placeholder="Your experience"
-                />
-              </div>
-              <label
-                for="inputSellOK"
-                class="form-label about__description text-white mb-4"
-                >If you answered yes to the previous question - As a creator,
-                would you like to sell your artwork as NFTs?</label
-              >
-              <div class="form-check form-switch mb-4">
-                <input
-                  class="form-check-input checkbox__color"
-                  type="checkbox"
-                  id="inputSellOK"
-                />
-                <label
-                  class="form-check-label about__description text-white"
                   for="inputSellOK"
-                  >Yes</label
+                  class="form-label about__description text-white mb-4"
+                  >If you answered yes to the previous question - As a creator,
+                  would you like to sell your artwork as NFTs?</label
                 >
-              </div>
-              <label
-                for="inputParticipateOK"
-                class="form-label about__description text-white mb-4"
-                >Would you like to participate in private sales of AI art on our
-                platform?</label
-              >
-              <div class="form-check form-switch mb-4">
-                <input
-                  class="form-check-input checkbox__color"
-                  type="checkbox"
-                  id="ParticipateOK"
-                />
+                <div class="form-check form-switch mb-4">
+                  <input
+                    class="form-check-input checkbox__color"
+                    type="checkbox"
+                    id="inputSellOK"
+                  />
+                  <label
+                    class="form-check-label about__description text-white"
+                    for="inputSellOK"
+                    >Yes</label
+                  >
+                </div>
                 <label
-                  class="form-check-label about__description text-white"
                   for="inputParticipateOK"
-                  >Yes</label
-                >
-              </div>
-              <p class="about__description mb-4">
-                As part of the Aimagine launch strategy, we will release a
-                limited amount of collector passes that will allow holders to
-                participate in the platform governance, access private sales and
-                closed auctions, get whitelists for launchpad mints, earn a
-                share of the marketplace fees and other various benefits within
-                the platform.
-              </p>
-              <div class="mb-4 form__placeholder">
-                <label
-                  for="inputOpinion"
                   class="form-label about__description text-white mb-4"
-                  >What utility/benefit do you believe will be the most valuable for the Collector Pass holders?</label
+                  >Would you like to participate in private sales of AI art on
+                  our platform?</label
                 >
-                <input
-                  type="text"
-                  class="form-control input__color"
-                  id="inputOpinion"
-                  aria-describedby="Opinion"
-                  placeholder="Your opinion"
-                />
-              </div>
-              <p class="about__description mb-4">
-                We are planning to release only 2000 Collector Passes to keep the community exclusive and be able to deliver the most value to the holders.
-              </p>
-              <label
-                for="inputPayOK"
-                class="form-label about__description text-white mb-4"
-                >Considering the supply, would you pay 1 ETH to mint a Collector Pass</label
-              >
-              <div class="form-check form-switch mb-4">
-                <input
-                  class="form-check-input checkbox__color"
-                  type="checkbox"
-                  id="PayOK"
-                />
+                <div class="form-check form-switch mb-4">
+                  <input
+                    class="form-check-input checkbox__color"
+                    type="checkbox"
+                    id="ParticipateOK"
+                  />
+                  <label
+                    class="form-check-label about__description text-white"
+                    for="inputParticipateOK"
+                    >Yes</label
+                  >
+                </div>
+                <p class="about__description mb-4">
+                  As part of the Aimagine launch strategy, we will release a
+                  limited amount of collector passes that will allow holders to
+                  participate in the platform governance, access private sales
+                  and closed auctions, get whitelists for launchpad mints, earn
+                  a share of the marketplace fees and other various benefits
+                  within the platform.
+                </p>
+                <div class="mb-4 form__placeholder">
+                  <label
+                    for="inputOpinion"
+                    class="form-label about__description text-white mb-4"
+                    >What utility/benefit do you believe will be the most
+                    valuable for the Collector Pass holders?</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control input__color"
+                    id="inputOpinion"
+                    aria-describedby="Opinion"
+                    placeholder="Your opinion"
+                  />
+                </div>
+                <p class="about__description mb-4">
+                  We are planning to release only 2000 Collector Passes to keep
+                  the community exclusive and be able to deliver the most value
+                  to the holders.
+                </p>
                 <label
-                  class="form-check-label about__description text-white"
                   for="inputPayOK"
-                  >Yes</label
-                >
-              </div>
-              <div class="mb-5 form__placeholder">
-                <label
-                  for="inputPrice"
                   class="form-label about__description text-white mb-4"
-                  >If not, please tell us what price you find fair and why?</label
+                  >Considering the supply, would you pay 1 ETH to mint a
+                  Collector Pass</label
                 >
-                <input
-                  type="text"
-                  class="form-control input__color"
-                  id="inputPrice"
-                  aria-describedby="Price"
-                  placeholder="What price you fand fair and why?"
-                />
+                <div class="form-check form-switch mb-4">
+                  <input
+                    class="form-check-input checkbox__color"
+                    type="checkbox"
+                    id="PayOK"
+                  />
+                  <label
+                    class="form-check-label about__description text-white"
+                    for="inputPayOK"
+                    >Yes</label
+                  >
+                </div>
+                <div class="mb-5 form__placeholder">
+                  <label
+                    for="inputPrice"
+                    class="form-label about__description text-white mb-4"
+                    >If not, please tell us what price you find fair and
+                    why?</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control input__color"
+                    id="inputPrice"
+                    aria-describedby="Price"
+                    placeholder="What price you fand fair and why?"
+                  />
+                </div>
+
+                <button href="#" class="btn btn-lg btn__pink" type="submit">
+                  Submit your application
+                </button>
               </div>
-            
-              <button type="submit" href="#" class="btn btn-lg btn__pink">Submit your application</button>
             </form>
           </div>
         </div>
@@ -323,5 +351,8 @@
         </div>
       </div>
     </footer>
+    
+
+    
   </body>
 </html>
