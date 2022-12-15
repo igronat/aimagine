@@ -264,7 +264,12 @@
                   from third parties.</label
                 >
               </div>
-              <button type="submit" href="" class="btn btn-lg btn__pink">
+              <button
+                type="button"
+                class="btn btn-lg btn__pink"
+                data-bs-toggle="modal"
+                data-bs-target="#community"
+              >
                 Join our community
               </button>
             </form>
@@ -301,5 +306,44 @@
         </div>
       </div>
     </footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="community"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content input__color">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Your application successfully submitted.</p>
+            <p>
+              Please note that the Aimagine curation board and community may
+              take some time to review your application. The process may take up
+              to several months. We will contact successful applicants by email.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary btn__pink"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
