@@ -319,3 +319,20 @@ footer {
   width: 155px;
 }
 
+.button__type_not_active {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.button__type_not_active::after {
+  content: 'Your account is connected'
+}
+
+.button__type_active::after {
+  content: 'Connect'
+}
+
+
+
+
+
